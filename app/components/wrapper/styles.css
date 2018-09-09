@@ -28,5 +28,6 @@
   position: absolute;
   z-index: 300;
   top: 0;
-  background: #00959C;
+  text-align: center;
+  font-size: 5rem;
 }

@@ -9,6 +9,7 @@ const Router = EmberRouter.extend({
 Router.map(function() {
   this.route('intro');
   this.route('api');
+  this.route('next-world');
 });
 
 export default Router;

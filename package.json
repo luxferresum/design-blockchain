@@ -19,6 +19,7 @@
   "devDependencies": {
     "@ember/optional-features": "^0.6.4",
     "@fortawesome/ember-fontawesome": "^0.1.5",
+    "@fortawesome/free-solid-svg-icons": "^5.3.1",
     "@typopro/web-source-code-pro": "^3.7.5",
     "@typopro/web-source-sans-pro": "^3.7.5",
     "broccoli-asset-rev": "^2.4.5",

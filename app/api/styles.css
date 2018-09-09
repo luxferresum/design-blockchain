@@ -3,6 +3,7 @@
   width: 100vw;
   background: #FF9200;
   display: flex;
+  padding: 1.5rem;
 }
 
 .spec {
@@ -18,5 +19,17 @@
   font-size: 1.5rem;
   font-weight: bolder;
   font-family: "TypoPRO Source Sans Pro";
+  animation-name: spec;
+  animation-fill-mode: forwards;
+  animation-duration: 3s;
 }
 
+
+@keyframes spec {
+  from {
+    color: #00959C
+  }
+  to {
+    color: #540069;
+  }
+}
