@@ -1,0 +1,22 @@
+.title {
+  margin: auto;
+  align-self: center;
+  animation-name: title;
+  animation-fill-mode: forwards;
+  animation-duration: 2s;
+}
+
+@keyframes title {
+  from {
+    transform: scale(1);
+    text-shadow: none;
+  }
+  30% {
+    transform: scale(1.5);
+    text-shadow: 0 0 3px #80a;
+  }
+  to {
+    transform: scale(1.4);
+    text-shadow: 0 0 10px #80a;
+  }
+}

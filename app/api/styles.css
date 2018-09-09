@@ -1,0 +1,22 @@
+.content {
+  height: 100vh;
+  width: 100vw;
+  background: #FF9200;
+  display: flex;
+}
+
+.spec {
+  background: #00959C;
+  margin: auto;
+  min-width: 60vw;
+  min-height: 25vh;
+  border-radius: 8px;
+  border: 3px solid #005C60;
+  box-shadow: 0 0 8px 2px #01F0FB, 0 0 10px 3px #005C60 inset;
+  padding: 1.5rem;
+  color: #540069;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  font-family: "TypoPRO Source Sans Pro";
+}
+

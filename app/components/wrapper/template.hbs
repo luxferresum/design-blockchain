@@ -1,0 +1,13 @@
+<div local-class="wrapper" onscroll={{action 'scroll'}}>
+
+  {{#unless @first}}
+    {{#link-to 'index' local-class='home'}}
+      {{fa-icon 'angle-up'}}
+    {{/link-to}}
+  {{/unless}}
+
+  <div local-class="content" ...attributes>
+    {{yield}}
+  </div>
+  <div local-class="scroller"></div>
+</div>
